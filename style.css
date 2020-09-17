@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, #D4D3DD, #EFEFBB);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+	font-family: 'Lato';
+	margin: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    letter-spacing: 4px;
+    font-family: 'Public Sans', sans-serif;
+}
+
+
+.loader {
+    display: grid;
+    grid-template-columns: repeat(4, 18vmax);
+    justify-content: center;
+    align-items: space-between;
+    margin: 0 auto;
+    font-family: 'Poppins';
+}
+
+.pokemon-Card {
+	background: #FDDFDF;
+	border-radius: 20px;
+	box-shadow: 0 3px 15px rgba(73, 66, 66, 0.5);
+	margin: 15px;
+	padding: 20px;
+    text-align: center;
+}
+
+.img-container {
+    background-color: #eee;
+    border-radius: 20px;
+    box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+    border-radius: 50%;
+}
+
+img {
+    width: 8vmax;
+}
+
+.img-container img {
+    margin-top: 20px;
+    max-width: 100%;
+}
+
+.textPokemon {
+    margin-top: 20px;
+}
+
+.textPokemon p {
+    background-color: rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	font-size: calc(0.5em + 0.6vw);
+    padding: 5px 10px;
+    font-weight: 400;
+}
+
+.idPokemon {
+    margin: auto;
+    width: 80px;
+}
+
+.textPokemon span {
+    margin: 15px 0 7px;
+    letter-spacing: 1px;
+}
